@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding-bottom: 0px;
+}
+.main{
+    width: auto;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(contact\ us.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 190vh;
+   
+}
+.navbar{
+    padding-top: 10px;
+    width: 100%px;
+    margin: 0px;
+    height: 40px;
+    position: center;
+    background-image: linear-gradient(rgb(3, 3, 3),rgb(3, 3, 3));
+}
+.navbar a{
+    text-decoration: none;
+    color: #ff7208;
+    font-family: arial;
+    font-weight: bold;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+
+.form{
+    width: 630px;
+    height: 480px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)100%, rgba(0,0,0,0.8)100%);
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    border-radius: 20px;
+    padding: 25px;
+}
+.form h2{
+    width: 420px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    background-color:orange;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 540px;
+
+    height: 50px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: #fff;
+    font-family: arial;
+
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+    transition: .4s ease;
+}
+.btn:hover{
+    color: black;
+    background:white;
+}
+.btn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: left;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.content{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 200px;
+    font-size: 35px;
+    text-align: left;
+}
+.content .am{
+    color: #ff7200;
+    font-family: 'Times New Roman';
+}
+.logo{
+    color: #ff7200;
+    font-family: arial;
+    font-size: 18.5px;
+    padding-top: 5.5px;
+    padding-left: 15px;
+    float: left;
+}
+.he{
+    display: inline-flex;
+}
+
+.footer{
+margin-top: 360px;
+width: 100;
+padding: 20px;
+color: black;
+display: flex;
+background-color: grey;
+}
+.footer div{
+    text-align: center;
+}
+.c0l-1{
+    color:#000;
+    
+}
+.col-2{
+    flex-grow:2;
+    color:black;
+    }
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 300x;
+    letter-spacing: 5px;
+}
+
+
+.header{
+    height: 220;
+    width: 100;
+    padding: 0%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(contact\ us.jpg);
+     position: relative;
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+   width: 300px; 
+}
+.nav-links{ 
+    padding: 30px 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    position: relative;
+    }
+    .nav-links li a::after{
+        content: "";
+        background: none;
+        width: 80%;
+        height: 2px;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        transition:width 0.5s;
+
+    }
+.nav-links li a:hover::after{
+    width: 100%;
+
+}
+.img1{
+      
+    width: auto;
+    height: 250px;
+     height:466px;
+    width:628px;
+    }
+.box{
+    display: flex;
+    position: absolute;
+    left: 500px;
+    top:800px;
+    
+}
+ .fa-instagram{
+    color:red;
+    font-size: 40px;
+    padding:5px;
+    margin-right: 35px;
+    
+}
+.fa-facebook{
+    color: blue;
+    font-size: 40px;
+    padding: 5px;
+    margin-right: 35px;
+ 
+}
+.fa-twitter{
+    color: blue;
+    font-size: 40px;
+    margin-right: 35px;
+   
+}
+.fa-linkedin{
+    color: blue;
+    font-size: 40px;
+    padding: 5px;
+    margin-right: 35px;
+    
+    
+} 
+.infobox{
+   
+    position: absolute;
+    
+    top:170px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    background: transparent;
+    border-radius: 10px;
+    
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    }
+.copy{
+    margin-top: 50px;
+
+}
+.mapouter{
+    top: 260px;
+    
+    padding-bottom: 20px;
+}
+
+
