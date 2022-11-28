@@ -257,7 +257,6 @@ nav{
 .infobox{
    
     position: absolute;
-    
     top:170px;
     font-size: 20px;
     letter-spacing: 1px;
@@ -265,18 +264,15 @@ nav{
     font-family: sans-serif;
     background: transparent;
     border-radius: 10px;
-    
     width: 500px;
     height: 200px;
     text-align: center;
     }
 .copy{
     margin-top: 50px;
-
 }
 .mapouter{
     top: 260px;
-    
     padding-bottom: 20px;
 }
 
