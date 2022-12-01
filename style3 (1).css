@@ -172,8 +172,6 @@ background-color: grey;
     padding: 0%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(contact\ us.jpg);
      position: relative;
-
-
 }
 nav{
     display: flex;
@@ -251,12 +249,9 @@ nav{
     font-size: 40px;
     padding: 5px;
     margin-right: 35px;
-    
-    
-} 
+    } 
 .infobox{
-   
-    position: absolute;
+   position: absolute;
     top:170px;
     font-size: 20px;
     letter-spacing: 1px;
