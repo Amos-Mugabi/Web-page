@@ -58,7 +58,6 @@
 }
 .form input{
     width: 540px;
-
     height: 50px;
     background: transparent;
     border-bottom: 1px solid #ff7200;
@@ -73,12 +72,10 @@
 }
 .form input:focus{
     outline: none;
-
 }
 ::placeholder{
     color: #fff;
     font-family: arial;
-
 }
 .btn{
     width: 240px;
