@@ -33,8 +33,6 @@
     transition: .4s ease;
     cursor: pointer;
 }
-
-
 .form{
     width: 630px;
     height: 480px;
@@ -150,8 +148,7 @@ background-color: grey;
 }
 .c0l-1{
     color:#000;
-    
-}
+    }
 .col-2{
     flex-grow:2;
     color:black;
@@ -161,8 +158,6 @@ background-color: grey;
     margin-bottom: 300x;
     letter-spacing: 5px;
 }
-
-
 .header{
     height: 220;
     width: 100;
